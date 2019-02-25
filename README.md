@@ -3,7 +3,8 @@
 
 
 ## Required packages 
-    Open terminal, navigate to your project location te type the following commands !
+> Open terminal, navigate to your project location te type the following commands !
+
     > dotnet add package Hangfire
     > dotnet add package Hangfire.MySql
     > dotnet add package Owin
@@ -14,7 +15,7 @@
 
 
 ## AppSettings
-> don' forget to set database connection !
+> don't forget to set database connection !
 
     {
       "Logging": {
@@ -43,7 +44,8 @@ Make sure that your database table has the same name as your model, ass well as 
 
 ## Startup class
 
-    change "WickedSs" to your username in github !
+> change "WickedSs" to your username in github !
+
     response = await client.GetAsync("/users/WickedSs/repos");
   
 That All,
