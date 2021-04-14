@@ -25,7 +25,7 @@
       },
       "AllowedHosts": "*",
       "ConnectionStrings" : {
-        "localhost" : "Server=localhost;User ID=SA;password=Luna1005;Database=hangfire",
+        "localhost" : "Server=localhost;User ID=SA;password=****;Database=hangfire",
         "DefaultConnection" : "Server=?;User ID=SA;password=?;Database=hangfire",
         "MySql" : {
           "gitRepo" : "Server=localhost;Uid=?;PWD=?;Database=gitRepo",
